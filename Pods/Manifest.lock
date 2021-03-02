@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AVOSCloud (12.3.0)
+  - ReactiveObjC (3.1.1)
+  - RNCryptor-objc (3.0.6)
+  - UMCommon (7.2.5):
+    - UMDevice
+  - UMCSecurityPlugins (1.0.6)
+  - UMDevice (1.1.0)
+  - UMPush (3.3.1):
+    - UMCommon
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVOSCloud
+  - ReactiveObjC
+  - RNCryptor-objc
+  - UMCommon
+  - UMCSecurityPlugins
+  - UMPush
+  - WebViewJavascriptBridge
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - AVOSCloud
+    - ReactiveObjC
+    - RNCryptor-objc
+    - UMCommon
+    - UMCSecurityPlugins
+    - UMDevice
+    - UMPush
+    - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AVOSCloud: bed104accc6fc53c3d16c3f52c8dfdff02251898
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
+  UMCommon: b5aabdb9fad44330ff8738d9bc46ebf93db14bf2
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
+  UMPush: 7ef2ff2fcca16e4d5c7897183a78a0d26f920bfe
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: bf2ef2ba83e9751cd0e4d4cac9c86e3a9dd590cc
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C016A88225BFA85E00F35A6C /* LeafEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C016A88125BFA85E00F35A6C /* LeafEngine.m */; };
+		C0177C0C2599D352005F8051 /* JWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = C0177C0B2599D352005F8051 /* JWebViewPool.m */; };
+		C049AC36259C48F200738DF6 /* JJSBridgeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC35259C48F200738DF6 /* JJSBridgeMessage.m */; };
+		C049AC3B259C492D00738DF6 /* JJSBridgeMessageDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC3A259C492D00738DF6 /* JJSBridgeMessageDispatcher.m */; };
+		C049AC3F259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC3E259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.m */; };
+		C049AC44259C63AF00738DF6 /* JJSBridgeModuleMetaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC43259C63AF00738DF6 /* JJSBridgeModuleMetaClass.m */; };
+		C049AC48259C696800738DF6 /* JJSBridgeJSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC47259C696800738DF6 /* JJSBridgeJSExecutor.m */; };
+		C049AC4C259C77AE00738DF6 /* JJSBridgeModuleRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC4B259C77AE00738DF6 /* JJSBridgeModuleRegister.m */; };
+		C049AC50259C7FAA00738DF6 /* JJSBridgeSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C049AC4F259C7FAA00738DF6 /* JJSBridgeSafeDictionary.m */; };
+		C06FFBDF259AC86D002E0358 /* WKWebView+JExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C06FFBDE259AC86D002E0358 /* WKWebView+JExtension.m */; };
+		C06FFBE7259AD74E002E0358 /* JJSBridgeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C06FFBE6259AD74E002E0358 /* JJSBridgeEngine.m */; };
+		C06FFBED259ADBDA002E0358 /* JJSBridgeWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06FFBEC259ADBDA002E0358 /* JJSBridgeWeakProxy.m */; };
+		C06FFBF3259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C06FFBF2259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.m */; };
+		C078B1DE25EE208100DEA087 /* AppDelegate+Service.m in Sources */ = {isa = PBXBuildFile; fileRef = C078B1DD25EE208100DEA087 /* AppDelegate+Service.m */; };
+		C08503E425C40BB900E04BCB /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = C08503E325C40BB900E04BCB /* demo.html */; };
+		C0B47EB12599B4FD000CE2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47EB02599B4FD000CE2BF /* AppDelegate.m */; };
+		C0B47EB72599B4FD000CE2BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47EB62599B4FD000CE2BF /* ViewController.m */; };
+		C0B47EBA2599B4FD000CE2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B47EB82599B4FD000CE2BF /* Main.storyboard */; };
+		C0B47EBC2599B504000CE2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B47EBB2599B504000CE2BF /* Assets.xcassets */; };
+		C0B47EBF2599B504000CE2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B47EBD2599B504000CE2BF /* LaunchScreen.storyboard */; };
+		C0B47EC22599B504000CE2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47EC12599B504000CE2BF /* main.m */; };
+		C0B47ED62599BD75000CE2BF /* JWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47ED52599BD75000CE2BF /* JWebView.m */; };
+		DD143FF4F2097490D6B60B3B /* libPods-JWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3912D7E42F47C69FC5B9B0 /* libPods-JWebView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C3912D7E42F47C69FC5B9B0 /* libPods-JWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE455FDBF43D34D6344185 /* Pods-JWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWebView.debug.xcconfig"; path = "Target Support Files/Pods-JWebView/Pods-JWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		C016A88025BFA85E00F35A6C /* LeafEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeafEngine.h; sourceTree = "<group>"; };
+		C016A88125BFA85E00F35A6C /* LeafEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafEngine.m; sourceTree = "<group>"; };
+		C0177C0A2599D352005F8051 /* JWebViewPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWebViewPool.h; sourceTree = "<group>"; };
+		C0177C0B2599D352005F8051 /* JWebViewPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWebViewPool.m; sourceTree = "<group>"; };
+		C02589BB2599D0DC0075ED83 /* JWebKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWebKit.h; sourceTree = "<group>"; };
+		C049AC34259C48F200738DF6 /* JJSBridgeMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeMessage.h; sourceTree = "<group>"; };
+		C049AC35259C48F200738DF6 /* JJSBridgeMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeMessage.m; sourceTree = "<group>"; };
+		C049AC39259C492D00738DF6 /* JJSBridgeMessageDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeMessageDispatcher.h; sourceTree = "<group>"; };
+		C049AC3A259C492D00738DF6 /* JJSBridgeMessageDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeMessageDispatcher.m; sourceTree = "<group>"; };
+		C049AC3D259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		C049AC3E259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		C049AC42259C63AF00738DF6 /* JJSBridgeModuleMetaClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeModuleMetaClass.h; sourceTree = "<group>"; };
+		C049AC43259C63AF00738DF6 /* JJSBridgeModuleMetaClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeModuleMetaClass.m; sourceTree = "<group>"; };
+		C049AC46259C696800738DF6 /* JJSBridgeJSExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeJSExecutor.h; sourceTree = "<group>"; };
+		C049AC47259C696800738DF6 /* JJSBridgeJSExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeJSExecutor.m; sourceTree = "<group>"; };
+		C049AC4A259C77AE00738DF6 /* JJSBridgeModuleRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeModuleRegister.h; sourceTree = "<group>"; };
+		C049AC4B259C77AE00738DF6 /* JJSBridgeModuleRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeModuleRegister.m; sourceTree = "<group>"; };
+		C049AC4E259C7FAA00738DF6 /* JJSBridgeSafeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeSafeDictionary.h; sourceTree = "<group>"; };
+		C049AC4F259C7FAA00738DF6 /* JJSBridgeSafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeSafeDictionary.m; sourceTree = "<group>"; };
+		C06FFBDD259AC86D002E0358 /* WKWebView+JExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+JExtension.h"; sourceTree = "<group>"; };
+		C06FFBDE259AC86D002E0358 /* WKWebView+JExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+JExtension.m"; sourceTree = "<group>"; };
+		C06FFBE5259AD74E002E0358 /* JJSBridgeEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeEngine.h; sourceTree = "<group>"; };
+		C06FFBE6259AD74E002E0358 /* JJSBridgeEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeEngine.m; sourceTree = "<group>"; };
+		C06FFBEB259ADBDA002E0358 /* JJSBridgeWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSBridgeWeakProxy.h; sourceTree = "<group>"; };
+		C06FFBEC259ADBDA002E0358 /* JJSBridgeWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSBridgeWeakProxy.m; sourceTree = "<group>"; };
+		C06FFBF1259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+JJSBridgeEngine.h"; sourceTree = "<group>"; };
+		C06FFBF2259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+JJSBridgeEngine.m"; sourceTree = "<group>"; };
+		C078B11925EE181B00DEA087 /* JWebViewDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JWebViewDebug.entitlements; sourceTree = "<group>"; };
+		C078B1DC25EE208100DEA087 /* AppDelegate+Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Service.h"; sourceTree = "<group>"; };
+		C078B1DD25EE208100DEA087 /* AppDelegate+Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Service.m"; sourceTree = "<group>"; };
+		C08503E325C40BB900E04BCB /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		C0B47EAC2599B4FD000CE2BF /* JWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B47EAF2599B4FD000CE2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0B47EB02599B4FD000CE2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0B47EB52599B4FD000CE2BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0B47EB62599B4FD000CE2BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0B47EB92599B4FD000CE2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0B47EBB2599B504000CE2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0B47EBE2599B504000CE2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0B47EC02599B504000CE2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B47EC12599B504000CE2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0B47ED42599BD75000CE2BF /* JWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWebView.h; sourceTree = "<group>"; };
+		C0B47ED52599BD75000CE2BF /* JWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWebView.m; sourceTree = "<group>"; };
+		C772D413012DA54E1BCE513E /* Pods-JWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWebView.release.xcconfig"; path = "Target Support Files/Pods-JWebView/Pods-JWebView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B47EA92599B4FD000CE2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD143FF4F2097490D6B60B3B /* libPods-JWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC1DA37CDD6C4275ABD91F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE455FDBF43D34D6344185 /* Pods-JWebView.debug.xcconfig */,
+				C772D413012DA54E1BCE513E /* Pods-JWebView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B191CBC68E878648369E2D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C3912D7E42F47C69FC5B9B0 /* libPods-JWebView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0177C092599D33B005F8051 /* WebViewPool */ = {
+			isa = PBXGroup;
+			children = (
+				C0177C0A2599D352005F8051 /* JWebViewPool.h */,
+				C0177C0B2599D352005F8051 /* JWebViewPool.m */,
+			);
+			path = WebViewPool;
+			sourceTree = "<group>";
+		};
+		C02589B62599CFB10075ED83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C06FFBDD259AC86D002E0358 /* WKWebView+JExtension.h */,
+				C06FFBDE259AC86D002E0358 /* WKWebView+JExtension.m */,
+				C06FFBF1259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.h */,
+				C06FFBF2259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C049ABA6259B111F00738DF6 /* LeafEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C016A88025BFA85E00F35A6C /* LeafEngine.h */,
+				C016A88125BFA85E00F35A6C /* LeafEngine.m */,
+			);
+			path = LeafEngine;
+			sourceTree = "<group>";
+		};
+		C049AC32259C1DA900738DF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C08503E325C40BB900E04BCB /* demo.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C049AC33259C48C400738DF6 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C049AC34259C48F200738DF6 /* JJSBridgeMessage.h */,
+				C049AC35259C48F200738DF6 /* JJSBridgeMessage.m */,
+				C049AC39259C492D00738DF6 /* JJSBridgeMessageDispatcher.h */,
+				C049AC3A259C492D00738DF6 /* JJSBridgeMessageDispatcher.m */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		C049AC41259C636C00738DF6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C049AC42259C63AF00738DF6 /* JJSBridgeModuleMetaClass.h */,
+				C049AC43259C63AF00738DF6 /* JJSBridgeModuleMetaClass.m */,
+				C049AC4A259C77AE00738DF6 /* JJSBridgeModuleRegister.h */,
+				C049AC4B259C77AE00738DF6 /* JJSBridgeModuleRegister.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		C06FFBE4259AD738002E0358 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C06FFBE5259AD74E002E0358 /* JJSBridgeEngine.h */,
+				C06FFBE6259AD74E002E0358 /* JJSBridgeEngine.m */,
+				C049AC33259C48C400738DF6 /* Dispatcher */,
+				C06FFBF0259ADC74002E0358 /* View */,
+				C06FFBEA259ADBB3002E0358 /* Util */,
+				C049AC41259C636C00738DF6 /* Register */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C06FFBEA259ADBB3002E0358 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C06FFBEB259ADBDA002E0358 /* JJSBridgeWeakProxy.h */,
+				C06FFBEC259ADBDA002E0358 /* JJSBridgeWeakProxy.m */,
+				C049AC3D259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.h */,
+				C049AC3E259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.m */,
+				C049AC46259C696800738DF6 /* JJSBridgeJSExecutor.h */,
+				C049AC47259C696800738DF6 /* JJSBridgeJSExecutor.m */,
+				C049AC4E259C7FAA00738DF6 /* JJSBridgeSafeDictionary.h */,
+				C049AC4F259C7FAA00738DF6 /* JJSBridgeSafeDictionary.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C06FFBF0259ADC74002E0358 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0177C092599D33B005F8051 /* WebViewPool */,
+				C02589B62599CFB10075ED83 /* Extension */,
+				C0B47ED42599BD75000CE2BF /* JWebView.h */,
+				C0B47ED52599BD75000CE2BF /* JWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C078B1DB25EE1FC400DEA087 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C078B1DC25EE208100DEA087 /* AppDelegate+Service.h */,
+				C078B1DD25EE208100DEA087 /* AppDelegate+Service.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C0B47EA32599B4FC000CE2BF = {
+			isa = PBXGroup;
+			children = (
+				C0B47EAE2599B4FD000CE2BF /* JWebView */,
+				C0B47EAD2599B4FD000CE2BF /* Products */,
+				8EC1DA37CDD6C4275ABD91F9 /* Pods */,
+				B191CBC68E878648369E2D43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B47EAD2599B4FD000CE2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B47EAC2599B4FD000CE2BF /* JWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B47EAE2599B4FD000CE2BF /* JWebView */ = {
+			isa = PBXGroup;
+			children = (
+				C078B1DB25EE1FC400DEA087 /* Service */,
+				C078B11925EE181B00DEA087 /* JWebViewDebug.entitlements */,
+				C049AC32259C1DA900738DF6 /* Resources */,
+				C049ABA6259B111F00738DF6 /* LeafEngine */,
+				C0B47ECA2599B547000CE2BF /* JWebKit */,
+				C0B47EAF2599B4FD000CE2BF /* AppDelegate.h */,
+				C0B47EB02599B4FD000CE2BF /* AppDelegate.m */,
+				C0B47EB52599B4FD000CE2BF /* ViewController.h */,
+				C0B47EB62599B4FD000CE2BF /* ViewController.m */,
+				C0B47EB82599B4FD000CE2BF /* Main.storyboard */,
+				C0B47EBB2599B504000CE2BF /* Assets.xcassets */,
+				C0B47EBD2599B504000CE2BF /* LaunchScreen.storyboard */,
+				C0B47EC02599B504000CE2BF /* Info.plist */,
+				C0B47EC12599B504000CE2BF /* main.m */,
+			);
+			path = JWebView;
+			sourceTree = "<group>";
+		};
+		C0B47ECA2599B547000CE2BF /* JWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				C02589BB2599D0DC0075ED83 /* JWebKit.h */,
+				C06FFBE4259AD738002E0358 /* Core */,
+			);
+			path = JWebKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0B47EAB2599B4FD000CE2BF /* JWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B47EC52599B504000CE2BF /* Build configuration list for PBXNativeTarget "JWebView" */;
+			buildPhases = (
+				08B465BEF34A8160498523DF /* [CP] Check Pods Manifest.lock */,
+				C0B47EA82599B4FD000CE2BF /* Sources */,
+				C0B47EA92599B4FD000CE2BF /* Frameworks */,
+				C0B47EAA2599B4FD000CE2BF /* Resources */,
+				0CD7CFCC613B8098CDB17DBD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWebView;
+			productName = JWebView;
+			productReference = C0B47EAC2599B4FD000CE2BF /* JWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B47EA42599B4FC000CE2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C0B47EAB2599B4FD000CE2BF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C0B47EA72599B4FC000CE2BF /* Build configuration list for PBXProject "JWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0B47EA32599B4FC000CE2BF;
+			productRefGroup = C0B47EAD2599B4FD000CE2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B47EAB2599B4FD000CE2BF /* JWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0B47EAA2599B4FD000CE2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B47EBF2599B504000CE2BF /* LaunchScreen.storyboard in Resources */,
+				C08503E425C40BB900E04BCB /* demo.html in Resources */,
+				C0B47EBC2599B504000CE2BF /* Assets.xcassets in Resources */,
+				C0B47EBA2599B4FD000CE2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B465BEF34A8160498523DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CD7CFCC613B8098CDB17DBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWebView/Pods-JWebView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWebView/Pods-JWebView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWebView/Pods-JWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B47EA82599B4FD000CE2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C049AC44259C63AF00738DF6 /* JJSBridgeModuleMetaClass.m in Sources */,
+				C0177C0C2599D352005F8051 /* JWebViewPool.m in Sources */,
+				C0B47ED62599BD75000CE2BF /* JWebView.m in Sources */,
+				C049AC4C259C77AE00738DF6 /* JJSBridgeModuleRegister.m in Sources */,
+				C049AC48259C696800738DF6 /* JJSBridgeJSExecutor.m in Sources */,
+				C0B47EB72599B4FD000CE2BF /* ViewController.m in Sources */,
+				C0B47EB12599B4FD000CE2BF /* AppDelegate.m in Sources */,
+				C049AC50259C7FAA00738DF6 /* JJSBridgeSafeDictionary.m in Sources */,
+				C06FFBDF259AC86D002E0358 /* WKWebView+JExtension.m in Sources */,
+				C06FFBED259ADBDA002E0358 /* JJSBridgeWeakProxy.m in Sources */,
+				C016A88225BFA85E00F35A6C /* LeafEngine.m in Sources */,
+				C06FFBF3259ADCC9002E0358 /* WKWebView+JJSBridgeEngine.m in Sources */,
+				C049AC3B259C492D00738DF6 /* JJSBridgeMessageDispatcher.m in Sources */,
+				C06FFBE7259AD74E002E0358 /* JJSBridgeEngine.m in Sources */,
+				C078B1DE25EE208100DEA087 /* AppDelegate+Service.m in Sources */,
+				C0B47EC22599B504000CE2BF /* main.m in Sources */,
+				C049AC3F259C4C9000738DF6 /* JJSBridgeWeakScriptMessageDelegate.m in Sources */,
+				C049AC36259C48F200738DF6 /* JJSBridgeMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0B47EB82599B4FD000CE2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B47EB92599B4FD000CE2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0B47EBD2599B504000CE2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B47EBE2599B504000CE2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0B47EC32599B504000CE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0B47EC42599B504000CE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B47EC62599B504000CE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBE455FDBF43D34D6344185 /* Pods-JWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JWebView/JWebViewDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4R855GB33C;
+				INFOPLIST_FILE = JWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeaf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jeaf_dev_pro;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B47EC72599B504000CE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C772D413012DA54E1BCE513E /* Pods-JWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4R855GB33C;
+				INFOPLIST_FILE = JWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeaf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jeaf_dev_pro;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B47EA72599B4FC000CE2BF /* Build configuration list for PBXProject "JWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B47EC32599B504000CE2BF /* Debug */,
+				C0B47EC42599B504000CE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B47EC52599B504000CE2BF /* Build configuration list for PBXNativeTarget "JWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B47EC62599B504000CE2BF /* Debug */,
+				C0B47EC72599B504000CE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B47EA42599B4FC000CE2BF /* Project object */;
+}

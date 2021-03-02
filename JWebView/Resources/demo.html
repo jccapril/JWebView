@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'https://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+        
+        function test() {
+            setupWebViewJavascriptBridge(function(bridge) {
+                bridge.callHandler('test', {'scheme':'tbopen://'}, function responseCallback(responseData) {
+                    console.log("JS received response:", responseData)
+                })
+            })
+           
+        }
+    
+    
+    </script>
+</head>
+<body>
+    <div style="text-align:center;">
+        <button onclick="test()" style="width:100px;height:60px;">淘宝</button>
+    </div>
+</body>
+</html>
